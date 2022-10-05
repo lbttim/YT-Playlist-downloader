@@ -1,7 +1,7 @@
 import yt_dlp
 from pytube import Playlist
 
-p = Playlist('https://www.youtube.com/playlist?list=')
+p = Playlist('https://www.youtube.com/playlist?list=YOURPLAYLISTID')
 
 for url in p.video_urls:
     print(url)
